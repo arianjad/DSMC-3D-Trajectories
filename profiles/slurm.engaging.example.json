@@ -1,0 +1,22 @@
+{
+  "schema_version": "dsmc-slurm-profile-v1",
+  "site_id": "engaging-example",
+  "site_runtime_verified": false,
+  "partition": "mit_normal",
+  "account": null,
+  "walltime": "00:30:00",
+  "nodes": 1,
+  "ranks": 8,
+  "threads": 1,
+  "memory_gb": 32,
+  "max_disk_gb": 40,
+  "repository_root": "/CHANGE_ME/DSMC-sims",
+  "setup_script": "/CHANGE_ME/setup-dsmc.sh",
+  "scratch_root": "/CHANGE_ME/scratch/dsmc",
+  "results_root": "/CHANGE_ME/results/dsmc",
+  "python": "python3",
+  "julia": "julia",
+  "solver_executable": "/CHANGE_ME/spa_mpi_bigbig",
+  "mpi_argv": ["mpirun", "-np", "{ranks}"],
+  "gas_policy": "carry-T-and-empty-ballistic"
+}

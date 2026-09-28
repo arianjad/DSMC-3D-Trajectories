@@ -1,0 +1,6 @@
+schema_version = "dsmc-canonical-tracer3d-v1"
+canonical_surface_sha256 = "0181ef8351af4924eb9b4fd967989a16c61b5b4975c088a6e9d3632851bfe247"
+triangle_roles_sha256 = "c7b9b372ea43a751e3661ea5911bfbaa6a11ec05499773d462a064aacbf47110"
+tracer_surface_sha256 = "71c2e26c4adf5fe61768b409cfc90620901fe92f56094b3617221646d19f6362"
+tracer_roles_sha256 = "8cff0377139ef64e66835907c73d27f708e611f8eabac3723ba3f2f64e23c388"
+triangle_count = 10

@@ -1,0 +1,67 @@
+{
+  "fixture_only": true,
+  "records": [
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 1
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 2
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 3
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 4
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 5
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 6
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 7
+    },
+    {
+      "boundary_id": "wall",
+      "molecule_action": "absorb",
+      "role": "wall",
+      "triangle_id": 8
+    },
+    {
+      "boundary_id": "inlet_cap",
+      "molecule_action": "absorb",
+      "role": "inlet_cap",
+      "triangle_id": 9
+    },
+    {
+      "boundary_id": "inlet_cap",
+      "molecule_action": "absorb",
+      "role": "inlet_cap",
+      "triangle_id": 10
+    }
+  ],
+  "schema_version": "dsmc-triangle-roles-v1",
+  "surface_sha256": "0181ef8351af4924eb9b4fd967989a16c61b5b4975c088a6e9d3632851bfe247"
+}

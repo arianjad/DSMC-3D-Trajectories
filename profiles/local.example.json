@@ -1,0 +1,15 @@
+{
+  "schema_version": "dsmc-profile-v1",
+  "profile_id": "local-example",
+  "platform": "local",
+  "solver_executable": "spa_mpi_bigbig",
+  "mpi_argv": ["mpirun", "-np", "{ranks}"],
+  "python": "python3",
+  "julia": "julia",
+  "ranks": 1,
+  "threads": 1,
+  "scratch_root": "../generated/scratch",
+  "results_root": "../results/local",
+  "max_memory_gb": 8,
+  "max_disk_gb": 20
+}

@@ -1,0 +1,14 @@
+ITEM: TIMESTEP
+0
+ITEM: NUMBER OF CELLS
+3
+ITEM: BOX BOUNDS oo oo oo
+-1 2
+-2 2
+-2 2
+ITEM: BASE GRID
+3 1 1
+ITEM: CELLS xc yc zc hx temp nrho u v w
+-0.5 0 0 0.5 4 1e15 0 0 0
+0.5 0 0 0.5 4 1e15 0 0 0
+1.5 0 0 0.5 4 1e15 0 0 0

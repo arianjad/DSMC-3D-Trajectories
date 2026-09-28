@@ -1,0 +1,6 @@
+# Helium-4 species data for SPARTA (SI units, 'units si')
+# Columns: species-ID  molwt(amu)  mass(kg)  rotdof  invrotrelax  vibdof  invvibrelax  vibtemp(K)  specwt  charge
+# He-4 atomic mass 4.002603254 u; mass = 4.002603254 * 1.66053906892e-27 kg = 6.6464791e-27 kg
+# Format verified against doc/species.txt and data/ar.species at SPARTA 24Sep2025 (4e6b30b0).
+
+He  4.002603  6.6464791e-27  0  0.0  0  0.0  0.0  1.0  0.0

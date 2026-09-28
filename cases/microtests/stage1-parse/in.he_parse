@@ -1,0 +1,24 @@
+# Stage 1 microtest: helium parse/startup smoke (NOT a physics result).
+# Purpose: prove the pinned spa_mpi parses he.species / he.vss / mixture /
+# collide vss at 4 K and runs a homogeneous 2D periodic box on one MPI task.
+# Pass: exit 0, np stays 10000, ncoll > 0 by the end, no ERROR lines.
+
+seed        8271991
+units       si
+dimension   2
+boundary    p p p
+global      gridcut 0.0 comm/sort yes
+create_box  0 0.01 0 0.01 -0.5 0.5
+create_grid 20 20 1
+
+species     he.species He
+mixture     hegas He nrho 1e20 temp 4.0
+global      fnum 1e12
+collide     vss hegas he.vss
+
+create_particles hegas n 10000
+
+stats       20
+stats_style step cpu np nattempt ncoll
+timestep    1e-6
+run         100

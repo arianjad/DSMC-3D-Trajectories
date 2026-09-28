@@ -1,0 +1,75 @@
+{
+  "schema_version": "dsmc-case-v1",
+  "case_id": "b5-circle-s25-sampled-probe",
+  "model": {
+    "label": "B5 sampled probe; exploratory execution reference",
+    "provenance": "cases/b5-slit-pair/circle/in.sampled and cases/b5-lean/gen_b5_aperture_pair.py; not an equilibrium or convergence reference"
+  },
+  "geometry": {
+    "adapter": "b5-circle",
+    "stub_preset": "s25",
+    "aspect_vertical_over_horizontal": 5,
+    "area_basis": "polygon",
+    "length_unit": "m",
+    "transform": {"solver_to_tracer_axes": ["y", "z", "x"], "translation_m": [0, 0, 0]},
+    "boundaries": {
+      "wall": {"surface_type": 1, "molecule_action": "absorb"},
+      "inlet_cap": {"surface_type": 2, "molecule_action": "absorb"},
+      "tube_fwd": {"surface_type": 1, "molecule_action": "ignore"},
+      "tube_rev": {"surface_type": 1, "molecule_action": "ignore"},
+      "ap_fwd": {"surface_type": 1, "molecule_action": "ignore"},
+      "ap_rev": {"surface_type": 1, "molecule_action": "ignore"}
+    },
+    "gas_reference_points_m": [[0.02, 0, 0], [0.06425, 0, 0]]
+  },
+  "helium": {
+    "species_file": "../../data/he.species",
+    "collision_file": "../../data/he.vss",
+    "wall_temperature_K": 4,
+    "wall_accommodation": 1,
+    "inlet": {"model": "emit/surf-mflow", "port": "inlet_cap", "mass_flow_kg_s": 1.1905173e-8, "temperature_K": 4},
+    "fill": {"number_density_m3": 2.744e21, "temperature_K": 4},
+    "provenance": "4 SCCM nominal inlet, B5 measured fill estimate, diffuse 4 K walls and hard-sphere helium from checked-in sampled deck/species files"
+  },
+  "numerics": {
+    "deck_template": "../../b5-slit-pair/circle/in.sampled",
+    "domain_bounds_m": [[-0.005, 0.115], [-0.025, 0.025], [-0.025, 0.025]],
+    "base_grid": [150, 63, 63],
+    "refinement": "b5-s25-sampled-v1",
+    "weighting": "cell-volume",
+    "fnum": 4e21,
+    "dt_s": 1e-7,
+    "total_steps": 4800,
+    "warmup_steps": 200,
+    "solver_seed": 20260918,
+    "field_every_steps": 2400,
+    "field_average": {"samples": 100, "stride_steps": 12, "period_steps": 1200},
+    "restart_every_steps": 24000
+  },
+  "molecules": {
+    "mass_u": 156.325,
+    "gas_mass_u": 4.002603,
+    "cross_section_m2": 2.7e-18,
+    "source": {"distribution": "uniform-ball", "center_m": [0.03175, 0.00635, 0], "radius_m": 0.0127, "drift_m_s": [0, 0, 0], "temperature_K": 1000},
+    "count": 1000,
+    "seed": "20260922",
+    "flight": "local",
+    "collision_rate_model": "approximate",
+    "flight_step_m": 0.000125,
+    "rng_protocol": "particle-v1",
+    "wall_action": "absorb",
+    "gas_reconstruction": {"field": "frozen-scalar-temperature", "missing_cell": "error"},
+    "provenance": "BaF hot-source values (the source configuration used for the B5 molecule runs); +solver-y orientation is an explicit example choice for its radial offset; 1000 molecules and local/approximate are numerical example choices, not apparatus validation"
+  },
+  "observables": {
+    "planes": [{
+      "name": "aperture-exit",
+      "origin_m": [0.065, 0, 0],
+      "normal": [1, 0, 0],
+      "axis_u": [0, 1, 0],
+      "axis_v": [0, 0, 1],
+      "acceptance": {"position_u_m": null, "position_v_m": null, "angle_rad": null, "time_s": null}
+    }],
+    "field_regions": ["eqfeed", "eqbody", "eqthroat", "eqplume"]
+  }
+}

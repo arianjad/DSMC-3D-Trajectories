@@ -1,0 +1,25 @@
+# Stage 2 microtest: hard-sphere collision-convention validation.
+# Homogeneous 3D periodic He box at 4 K. Measures collision event rate against
+# kinetic theory Z/n = (1/2) n sigma <v_rel> to validate the sigma = pi*d^2
+# translation in cases/data/he.vss (hard-sphere model assumption).
+# Exact density: n = np*fnum/V = 50000 * 2e9 / 1e-6 m^3 = 1.0e20 m^-3.
+# Cells: 1 mm << MFP (35 mm); dt 1e-6 s << collision time (~2.4e-4 s).
+# Analysis + pass criteria: analyze.py (pre-registered in that file).
+
+seed        662607
+units       si
+dimension   3
+boundary    p p p
+global      gridcut 0.0 comm/sort yes
+create_box  0 0.01 0 0.01 0 0.01
+create_grid 10 10 10
+species     he.species He
+mixture     hegas He nrho 1e20 temp 4.0
+global      fnum 2e9
+collide     vss hegas he.vss
+create_particles hegas n 50000
+compute     myT temp
+stats       200
+stats_style step cpu np nattempt ncoll c_myT
+timestep    1e-6
+run         20000

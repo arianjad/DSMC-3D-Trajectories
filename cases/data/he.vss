@@ -1,0 +1,10 @@
+# Hard-sphere helium for SPARTA 'collide vss' (VSS file format, relax constant)
+# Columns: species-ID  diam(m)  omega  tref(K)  alpha
+# Hard sphere = omega 0.5 (temperature-independent diameter) + alpha 1.0 (isotropic),
+# per doc/collide.txt and the shipped data/ar.hs precedent at tag 24Sep2025.
+# diam = sqrt(sigma/pi) for published sigma = 2e-19 m^2 (Takahashi et al. 2021).
+# VALIDATED 2026-08-17 by stage-2 microtest (run stage2-20260817T153513Z):
+# measured/expected event rate R = 0.9997 whole-run (0.985 +- 0.010 sampled)
+# against Z/N = (1/2) n sigma <v_rel> at 4 K, confirming sigma = pi*d^2.
+
+He  2.523132522020160e-10  0.50  273.15  1.0

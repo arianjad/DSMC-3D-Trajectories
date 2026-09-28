@@ -1,0 +1,104 @@
+# Paired s25 sampled campaign; derived from in.he_b5_3d_mflow_s25.
+seed        ${SEED}
+units       si
+dimension   3
+boundary    o o o
+global      gridcut 0.0 surfmax 1024 mem/limit 1024
+create_box  -0.005 0.115 -0.025 0.025 -0.025 0.025
+region      core_body_l2 cylinder x 0 0 0.0205 -0.0051 0.0652
+region      plume_l2 block 0.0642 INF INF INF INF INF
+region      tube_buffer_l3 cylinder x 0 0 0.004 -0.0033 0.0016
+region      jet_l3 cylinder x 0 0 0.006 0.0005 0.012
+region      throat_buffer_l3 cylinder x 0 0 0.0082 0.0607 0.0668
+region      plume_l3a cylinder x 0 0 0.009 0.0668 0.072
+region      plume_l3b cylinder x 0 0 0.012 0.072 0.077
+region      plume_l3c cylinder x 0 0 0.015 0.077 0.082
+region      tube_buffer_l4 cylinder x 0 0 0.0032 -0.0029 0.0008
+region      throat_l4 cylinder x 0 0 0.0066 0.0615 0.066
+region      tube_buffer_l5 cylinder x 0 0 0.0024 -0.00252 0
+region      level2 union 2 core_body_l2 plume_l2
+region      level3 union 6 tube_buffer_l3 jet_l3 throat_buffer_l3 plume_l3a plume_l3b plume_l3c
+region      level4 union 2 tube_buffer_l4 throat_l4
+create_grid 150 63 63 levels 5 region 2 level2 2 2 2 region 3 level3 2 2 2 region 4 level4 2 2 2 region 5 tube_buffer_l5 2 2 2 inside any
+balance_grid rcb cell
+global      weight cell volume
+species     he.species He
+mixture     hegas He nrho 1.0e22 temp 4
+mixture     fillgas He nrho ${FILLN} temp 4
+global      fnum ${FNUM}
+collide     vss hegas he.vss
+read_surf   cell_b5_3d_s25.surf type group cellwalls clip
+surf_collide walls diffuse 4.0 1.0
+surf_collide tp transparent
+surf_modify cellwalls collide walls
+group       cap surf type 2
+read_surf   tube_fwd3d.surf type transparent group tf
+surf_modify tf collide tp
+read_surf   tube_rev3d.surf type transparent group tr
+surf_modify tr collide tp
+read_surf   ap_fwd3d.surf type transparent group af
+surf_modify af collide tp
+read_surf   ap_rev3d.surf type transparent group ar
+surf_modify ar collide tp
+region      initcell cylinder x 0 0 0.01905 -0.0024 0.065
+create_particles fillgas n 0 region initcell
+balance_grid rcb part
+fix         src emit/surf hegas cap normal yes mflow ${MDOT} 4.0
+stats       1000
+stats_style step cpu np nattempt ncoll f_src[1] f_src[2]
+stats_modify flush yes
+timestep    ${DT}
+# --- histories (every 1200 steps = 0.12 ms) ---
+compute     ceqrho grid all hegas nrho
+compute     ceqvol property/grid all vol
+variable    eqinventory grid c_ceqrho[1]*c_ceqvol
+compute     ceqinventory reduce sum v_eqinventory
+fix         aeqinventory ave/time 12 100 1200 c_ceqinventory file equil-inventory.out
+region      eqfeed cylinder x 0 0 0.000825 -0.005 0
+region      eqbody cylinder x 0 0 0.0185 0.002 0.0615
+region      eqthroat cylinder x 0 0 0.0052450577284 0.062 0.065
+region      eqplume cylinder x 0 0 0.01 0.065 0.083
+group       eqfeed grid region eqfeed center
+group       eqbody grid region eqbody center
+group       eqthroat grid region eqthroat center
+group       eqplume grid region eqplume center
+compute     ceqfeed reduce sum v_eqinventory subset eqfeed
+compute     ceqbody reduce sum v_eqinventory subset eqbody
+compute     ceqthroat reduce sum v_eqinventory subset eqthroat
+compute     ceqplume reduce sum v_eqinventory subset eqplume
+compute     ceqfeedvol reduce sum c_ceqvol subset eqfeed
+compute     ceqbodyvol reduce sum c_ceqvol subset eqbody
+compute     ceqthroatvol reduce sum c_ceqvol subset eqthroat
+compute     ceqplumevol reduce sum c_ceqvol subset eqplume
+fix         aeqregions ave/time 12 100 1200 c_ceqfeed c_ceqbody c_ceqthroat c_ceqplume c_ceqfeedvol c_ceqbodyvol c_ceqthroatvol c_ceqplumevol file equil-regions.out
+fix         aeqsource ave/time 12 100 1200 f_src[1] file equil-source.out
+group       eqdiag surf union tf tr af ar
+compute     ceqdiag surf eqdiag hegas nflux norm flow
+fix         aeqdiag ave/surf eqdiag 12 100 1200 c_ceqdiag[1]
+compute     ceqbound boundary hegas nflux
+fix         aeqbound ave/time 12 100 1200 c_ceqbound[*] mode vector file equil-boundary.out
+dump        deqtf surf tf 1200 equil-tf.out id f_aeqdiag
+dump_modify deqtf first no flush yes
+dump        deqtr surf tr 1200 equil-tr.out id f_aeqdiag
+dump_modify deqtr first no flush yes
+dump        deqaf surf af 1200 equil-af.out id f_aeqdiag
+dump_modify deqaf first no flush yes
+dump        deqar surf ar 1200 equil-ar.out id f_aeqdiag
+dump_modify deqar first no flush yes
+# Sampling campaign: STEPS is TOTAL including the 200-step warm-up.
+# Raw fields every 2400 steps = 0.24 ms at DT=1e-7, gzipped: 127 MB per frame
+# against 709 MB plain, +4 s per dump (gzprobe 2026-09-18, SPARTA_GZIP build).
+# Each field is the existing 100 samples x 12-step average (~0.12 ms).
+# First field at 2400 starts sampling at 1212, after fix creation at 200.
+run         200
+balance_grid rcb time
+fix         perf balance 5000 1.1 rcb time
+restart     24000 b5.restart.%
+compute     cfields grid all hegas n nrho u v w usq vsq wsq
+compute     cthermal thermal/grid all hegas temp
+fix         afields ave/grid all 12 100 1200 c_cfields[*] c_cthermal[*] ave one
+dump        dfields grid all 2400 fields.*.gz idstr split xlo ylo zlo xhi yhi zhi vol f_afields[*]
+dump_modify dfields first no flush yes
+variable    nmain equal ${STEPS}-200
+run         ${nmain}
+write_restart final.restart.%

@@ -1,0 +1,7 @@
+# Minimal Python dependencies for the B5 3D local workflow and benchmark.
+# SPARTA/MPI and Julia packages are separate; see tracer/Project.toml.
+numpy>=2.2,<3
+pandas>=2.3,<4
+scipy>=1.15,<2
+psutil>=7,<8
+matplotlib>=3.8,<4  # tools/plot_tracer_paths3d.py; tested with 3.10.8

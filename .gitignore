@@ -1,0 +1,8 @@
+# Python caches
+__pycache__/
+*.py[cod]
+/.pytest_cache/
+
+# Run outputs belong under your work root ($W), outside the clone.
+/generated/
+/results/

@@ -1,0 +1,79 @@
+Test project sparta-build
+
+        Start 1: mpi_bigbig.in.ablation.2d.mpi_1
+1/8 Test #1: mpi_bigbig.in.ablation.2d.mpi_1 .............................   Passed    1.00 sec
+        Start 2: mpi_bigbig.in.circle.adjust.mpi_1
+2/8 Test #2: mpi_bigbig.in.circle.adjust.mpi_1 ...........................   Passed    1.00 sec
+        Start 3: mpi_bigbig.in.circle.constant.mpi_1
+3/8 Test #3: mpi_bigbig.in.circle.constant.mpi_1 .........................***Failed  Error regular expression found in output. Regex=[FAILED]  1.00 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ntests: 1
+default descriptor: mpi_1
+default norm: max
+default tolerance: 1e-07
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dir = sparta-build/examples/adjust_temp
+test = circle.constant
+gold standard = log.14Oct24.mpi_1.circle.constant
+read 9 log entries
+read 9 log entries
+==== comparing log.mpi_1.circle.constant with log.14Oct24.mpi_1.circle.constant ====
+Step     error  0.0 wrt norm  2000.0
+Np       error  0.0 wrt norm 26072.0
+Natt     error  0.0 wrt norm   425.0
+Ncoll    error  0.0 wrt norm   309.0
+Nscoll   error  0.0 wrt norm    26.0
+Ngrid    error 2322.0 wrt norm  9957.0
+Maxlevel  error  1.0 wrt norm     8.0
+!!! test circle.constant FAILED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+!!! 1 of 1 tests failed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Start 4: mpi_bigbig.in.sphere.adjust.mpi_1
+4/8 Test #4: mpi_bigbig.in.sphere.adjust.mpi_1 ...........................   Passed    1.00 sec
+        Start 5: mpi_bigbig.in.circle.adjust.mpi_4
+5/8 Test #5: mpi_bigbig.in.circle.adjust.mpi_4 ...........................   Passed    1.00 sec
+        Start 6: mpi_bigbig.in.circle.constant.mpi_4
+6/8 Test #6: mpi_bigbig.in.circle.constant.mpi_4 .........................***Failed  Error regular expression found in output. Regex=[FAILED]  1.00 sec
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ntests: 1
+default descriptor: mpi_4
+default norm: max
+default tolerance: 1e-07
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dir = sparta-build/examples/adjust_temp
+test = circle.constant
+gold standard = log.14Oct24.mpi_4.circle.constant
+read 9 log entries
+read 9 log entries
+==== comparing log.mpi_4.circle.constant with log.14Oct24.mpi_4.circle.constant ====
+Step     error  0.0 wrt norm  2000.0
+Np       error  0.0 wrt norm 25918.0
+Natt     error  0.0 wrt norm   440.0
+Ncoll    error  0.0 wrt norm   297.0
+Nscoll   error  0.0 wrt norm    28.0
+Ngrid    error 2298.0 wrt norm  9699.0
+Maxlevel  error  1.0 wrt norm     8.0
+!!! test circle.constant FAILED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+!!! 1 of 1 tests failed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Start 7: mpi_bigbig.in.torque.mpi_1
+7/8 Test #7: mpi_bigbig.in.torque.mpi_1 ..................................   Passed    1.00 sec
+        Start 8: mpi_bigbig.in.torque.mpi_4
+8/8 Test #8: mpi_bigbig.in.torque.mpi_4 ..................................   Passed    1.00 sec
+
+75% tests passed, 2 tests failed out of 8
+
+Total Test time (real) = 8.00 sec
+
+The following tests FAILED:
+	3 - mpi_bigbig.in.circle.constant.mpi_1 (Failed)
+	6 - mpi_bigbig.in.circle.constant.mpi_4 (Failed)
+Errors while running CTest

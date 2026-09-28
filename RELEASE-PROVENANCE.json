@@ -1,0 +1,1357 @@
+{
+  "files": [
+    {
+      "bytes": 145,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": ".gitignore",
+      "sha256": "731eb48290616b041cda2fc277dc05d95483c6e3a110b5661a4003a89c6f394b",
+      "source_path": "public/.gitignore",
+      "source_sha256": "731eb48290616b041cda2fc277dc05d95483c6e3a110b5661a4003a89c6f394b"
+    },
+    {
+      "bytes": 6784,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "3D-QUICKSTART.md",
+      "sha256": "f75c4a903327d1fe7197639d259896e60320c5a7f63dbe7afedfdc9e3098b95c",
+      "source_path": "public/3D-QUICKSTART.md",
+      "source_sha256": "f75c4a903327d1fe7197639d259896e60320c5a7f63dbe7afedfdc9e3098b95c"
+    },
+    {
+      "bytes": 4595,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "HPC-README.md",
+      "sha256": "8064c4dadbb618a11db51ebc3db83de5ab0b6ee5ddb8bf958e2e43b0cd90380b",
+      "source_path": "public/HPC-README.md",
+      "source_sha256": "8064c4dadbb618a11db51ebc3db83de5ab0b6ee5ddb8bf958e2e43b0cd90380b"
+    },
+    {
+      "bytes": 1072,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "LICENSE",
+      "sha256": "af899484a69dd1c60b1c4c2894fd6a9a0e9bef3db3b477cbf3e4e4f0f523a281",
+      "source_path": "public/LICENSE",
+      "source_sha256": "af899484a69dd1c60b1c4c2894fd6a9a0e9bef3db3b477cbf3e4e4f0f523a281"
+    },
+    {
+      "bytes": 1104,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "LICENSING.md",
+      "sha256": "72ac7ebf2433dbcea53449140a5739a949401bef7bd8e113200c89c3ecbeefeb",
+      "source_path": "public/LICENSING.md",
+      "source_sha256": "72ac7ebf2433dbcea53449140a5739a949401bef7bd8e113200c89c3ecbeefeb"
+    },
+    {
+      "bytes": 3833,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "README.md",
+      "sha256": "a30d2c6e2e750abc0c4de0f7eb233f2680f2fc3c23c0282559fe8c5b3b67e159",
+      "source_path": "public/README.md",
+      "source_sha256": "a30d2c6e2e750abc0c4de0f7eb233f2680f2fc3c23c0282559fe8c5b3b67e159"
+    },
+    {
+      "bytes": 1104,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "72ac7ebf2433dbcea53449140a5739a949401bef7bd8e113200c89c3ecbeefeb",
+      "source_path": "public/LICENSING.md",
+      "source_sha256": "72ac7ebf2433dbcea53449140a5739a949401bef7bd8e113200c89c3ecbeefeb"
+    },
+    {
+      "bytes": 7403,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/b5-lean/gen_b5_3d.py",
+      "sha256": "5e82f271ab8f4742915e34765f5c656377f7ef459b006459b3f2f3b5547c1dbc",
+      "source_path": "cases/b5-lean/gen_b5_3d.py",
+      "source_sha256": "5e82f271ab8f4742915e34765f5c656377f7ef459b006459b3f2f3b5547c1dbc"
+    },
+    {
+      "bytes": 9457,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/b5-lean/gen_b5_3d_slit.py",
+      "sha256": "4380ce0723a38363a59afe238e7b46c95b4249f4005baf8e23fe108633774ae9",
+      "source_path": "cases/b5-lean/gen_b5_3d_slit.py",
+      "source_sha256": "4380ce0723a38363a59afe238e7b46c95b4249f4005baf8e23fe108633774ae9"
+    },
+    {
+      "bytes": 5756,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/b5-lean/gen_b5_aperture_pair.py",
+      "sha256": "7fdc4811a27bdd2eebad7218d7d5377b78403f88a22c34a6c8793c7efc531567",
+      "source_path": "cases/b5-lean/gen_b5_aperture_pair.py",
+      "source_sha256": "7fdc4811a27bdd2eebad7218d7d5377b78403f88a22c34a6c8793c7efc531567"
+    },
+    {
+      "bytes": 4460,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/b5-slit-pair/check_sample_probes.py",
+      "sha256": "55e4dc926ced4a1119ca24dffa851e223a1e4dfc90c1c9dece81ac5082a8b8e9",
+      "source_path": "cases/b5-slit-pair/check_sample_probes.py",
+      "source_sha256": "55e4dc926ced4a1119ca24dffa851e223a1e4dfc90c1c9dece81ac5082a8b8e9"
+    },
+    {
+      "bytes": 5241,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/b5-slit-pair/circle/in.sampled",
+      "sha256": "e3c166d0262eb4c4fca7a04599a02a4972ed65abcf3bc12bff8e7e9b1abf636a",
+      "source_path": "cases/b5-slit-pair/circle/in.sampled",
+      "source_sha256": "e3c166d0262eb4c4fca7a04599a02a4972ed65abcf3bc12bff8e7e9b1abf636a"
+    },
+    {
+      "bytes": 421,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/data/he.species",
+      "sha256": "2f15fd1e5058853a5ebf03a6efe4689e2d400029a7002efca1a294aef43f92ec",
+      "source_path": "cases/data/he.species",
+      "source_sha256": "2f15fd1e5058853a5ebf03a6efe4689e2d400029a7002efca1a294aef43f92ec"
+    },
+    {
+      "bytes": 649,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/data/he.vss",
+      "sha256": "7f8bf89faa553b9fa9864cf0b72a57616a1075c5e85e45c149c5c6859f51545c",
+      "source_path": "cases/data/he.vss",
+      "source_sha256": "7f8bf89faa553b9fa9864cf0b72a57616a1075c5e85e45c149c5c6859f51545c"
+    },
+    {
+      "bytes": 3257,
+      "edits": [
+        {
+          "new_sha256": "c1066f743d7ba1b798a816038ebf259785717778efd2e9159c421be41ab3c26a",
+          "old_sha256": "11e69a2755b09869331e7535e52831edd58e5773d1eb23be5313b67b2e03254b",
+          "why": "names an unreleased file; projection keeps the source case byte-identical to the one the Engaging reference job ran"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/examples/b5-circle/case.json",
+      "sha256": "7a7a7bae69c7bedeb427f64ad3c5538304b32f86f11cb460f556379b2e4bdbdb",
+      "source_path": "cases/examples/b5-circle/case.json",
+      "source_sha256": "0d620f2970a412fdecd3bfc3776b0056b4b6cae26ac78bcd0cf8890e456f1c20"
+    },
+    {
+      "bytes": 4019,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/in.mflow_stub3d",
+      "sha256": "ce145fa5d929ef3ddfb7c25caa633552d48c1c69de44d43541846c03ccad771c",
+      "source_path": "cases/microtests/emit-surf/in.mflow_stub3d",
+      "source_sha256": "ce145fa5d929ef3ddfb7c25caa633552d48c1c69de44d43541846c03ccad771c"
+    },
+    {
+      "bytes": 3788,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s1_fwd3d.surf",
+      "sha256": "65de532963cd9d0accc3260b73547c1fc51807b8249992e8ee1651e561eb5601",
+      "source_path": "cases/microtests/emit-surf/s1_fwd3d.surf",
+      "source_sha256": "65de532963cd9d0accc3260b73547c1fc51807b8249992e8ee1651e561eb5601"
+    },
+    {
+      "bytes": 3762,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s1_rev3d.surf",
+      "sha256": "e01694f4bd052d30fc277e6f4afaa3b97d23534bccf0f580590688fc95a2f288",
+      "source_path": "cases/microtests/emit-surf/s1_rev3d.surf",
+      "source_sha256": "e01694f4bd052d30fc277e6f4afaa3b97d23534bccf0f580590688fc95a2f288"
+    },
+    {
+      "bytes": 3788,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s2_fwd3d.surf",
+      "sha256": "bbb79b1a5ab4312d681cae8f4f2c4e8aaf1a13563e867c630dc62b902cc8d008",
+      "source_path": "cases/microtests/emit-surf/s2_fwd3d.surf",
+      "source_sha256": "bbb79b1a5ab4312d681cae8f4f2c4e8aaf1a13563e867c630dc62b902cc8d008"
+    },
+    {
+      "bytes": 3762,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s2_rev3d.surf",
+      "sha256": "6a3bec0df2afdfbaafe7dc24ac53684e0dd3f39b4c68d7183d4574815774ba8e",
+      "source_path": "cases/microtests/emit-surf/s2_rev3d.surf",
+      "source_sha256": "6a3bec0df2afdfbaafe7dc24ac53684e0dd3f39b4c68d7183d4574815774ba8e"
+    },
+    {
+      "bytes": 3788,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s3_fwd3d.surf",
+      "sha256": "d3de3a69918090c747b4c4b5e4ccc1fd592b96c236b31e5c73c54bd83cfa9e36",
+      "source_path": "cases/microtests/emit-surf/s3_fwd3d.surf",
+      "source_sha256": "d3de3a69918090c747b4c4b5e4ccc1fd592b96c236b31e5c73c54bd83cfa9e36"
+    },
+    {
+      "bytes": 3762,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/s3_rev3d.surf",
+      "sha256": "5d72b4aaf151ba4465cfa6fdbb6dd2192aee677785860f7702c76d900e61b0bc",
+      "source_path": "cases/microtests/emit-surf/s3_rev3d.surf",
+      "source_sha256": "5d72b4aaf151ba4465cfa6fdbb6dd2192aee677785860f7702c76d900e61b0bc"
+    },
+    {
+      "bytes": 235,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st1_fwd.surf",
+      "sha256": "fda1a46ef652c8deeb87ad30dfeecf47b78cddfee25e5bf9bff8d51672a897c8",
+      "source_path": "cases/microtests/emit-surf/st1_fwd.surf",
+      "source_sha256": "fda1a46ef652c8deeb87ad30dfeecf47b78cddfee25e5bf9bff8d51672a897c8"
+    },
+    {
+      "bytes": 159,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st1_rev.surf",
+      "sha256": "fbdcfe2d565fb99b41b8905df3277b81cfebd05d1e109aeb44234700fdea4963",
+      "source_path": "cases/microtests/emit-surf/st1_rev.surf",
+      "source_sha256": "fbdcfe2d565fb99b41b8905df3277b81cfebd05d1e109aeb44234700fdea4963"
+    },
+    {
+      "bytes": 219,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st2_fwd.surf",
+      "sha256": "ea5dc790f755ab81d2b97cb60966b2101002bf911743f6d53719157521560bba",
+      "source_path": "cases/microtests/emit-surf/st2_fwd.surf",
+      "source_sha256": "ea5dc790f755ab81d2b97cb60966b2101002bf911743f6d53719157521560bba"
+    },
+    {
+      "bytes": 159,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st2_rev.surf",
+      "sha256": "f171fb181ceda74f0a5cb1c991343bd883fcb229c2cead1946b735a12dd19489",
+      "source_path": "cases/microtests/emit-surf/st2_rev.surf",
+      "source_sha256": "f171fb181ceda74f0a5cb1c991343bd883fcb229c2cead1946b735a12dd19489"
+    },
+    {
+      "bytes": 345,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st3_fwd.surf",
+      "sha256": "06d1340da95f7f1c353cbaf7506f632b53ab81cd883c94923eb207dd8ff4c14d",
+      "source_path": "cases/microtests/emit-surf/st3_fwd.surf",
+      "source_sha256": "06d1340da95f7f1c353cbaf7506f632b53ab81cd883c94923eb207dd8ff4c14d"
+    },
+    {
+      "bytes": 157,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st3_rev.surf",
+      "sha256": "8088b39dcd6b4484bf7803a1c3eee498dc0c0b3ea5b8fdfea96863aa3d944a5f",
+      "source_path": "cases/microtests/emit-surf/st3_rev.surf",
+      "source_sha256": "8088b39dcd6b4484bf7803a1c3eee498dc0c0b3ea5b8fdfea96863aa3d944a5f"
+    },
+    {
+      "bytes": 405,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st_fwd.surf",
+      "sha256": "d3ac2f320539d065a32daad29c080bb19821b06fc74ada549d5d79f30a68b990",
+      "source_path": "cases/microtests/emit-surf/st_fwd.surf",
+      "source_sha256": "d3ac2f320539d065a32daad29c080bb19821b06fc74ada549d5d79f30a68b990"
+    },
+    {
+      "bytes": 3988,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st_fwd3d.surf",
+      "sha256": "36eeb7ccb8f9d673e82c2af78e7d2c60900f86dd8d03dee7a1641ef572fbf649",
+      "source_path": "cases/microtests/emit-surf/st_fwd3d.surf",
+      "source_sha256": "36eeb7ccb8f9d673e82c2af78e7d2c60900f86dd8d03dee7a1641ef572fbf649"
+    },
+    {
+      "bytes": 186,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st_rev.surf",
+      "sha256": "b413722b8ac3510455f055e81e0bcf3337f480b6eff9e1d058de6bba8ffcc5f5",
+      "source_path": "cases/microtests/emit-surf/st_rev.surf",
+      "source_sha256": "b413722b8ac3510455f055e81e0bcf3337f480b6eff9e1d058de6bba8ffcc5f5"
+    },
+    {
+      "bytes": 3962,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/st_rev3d.surf",
+      "sha256": "358f203c4abe4e2e10b99453220bffae41facf48ed2fd4db69fbce1000f76739",
+      "source_path": "cases/microtests/emit-surf/st_rev3d.surf",
+      "source_sha256": "358f203c4abe4e2e10b99453220bffae41facf48ed2fd4db69fbce1000f76739"
+    },
+    {
+      "bytes": 12495,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/stub3d.surf",
+      "sha256": "89cd5c22270b7784cd9168bc6707831dfc7b1727101344b152a885b31c5c48b1",
+      "source_path": "cases/microtests/emit-surf/stub3d.surf",
+      "source_sha256": "89cd5c22270b7784cd9168bc6707831dfc7b1727101344b152a885b31c5c48b1"
+    },
+    {
+      "bytes": 375,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/stub_plume.surf",
+      "sha256": "2af2bcf3e64b8bed6723237408cff83f8f28fdb318a8f71787611c034288ee13",
+      "source_path": "cases/microtests/emit-surf/stub_plume.surf",
+      "source_sha256": "2af2bcf3e64b8bed6723237408cff83f8f28fdb318a8f71787611c034288ee13"
+    },
+    {
+      "bytes": 440,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/tube_cap.surf",
+      "sha256": "3babfec768da84778279c40bd85e7fe1a2ace5a6fea4df79a46f93fa8b5eee90",
+      "source_path": "cases/microtests/emit-surf/tube_cap.surf",
+      "source_sha256": "3babfec768da84778279c40bd85e7fe1a2ace5a6fea4df79a46f93fa8b5eee90"
+    },
+    {
+      "bytes": 9056,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/tube_cap3d.surf",
+      "sha256": "d5c2a2ec8dbb93a44490388187f260f832f19e61a7e107bccc77e75a7b814a05",
+      "source_path": "cases/microtests/emit-surf/tube_cap3d.surf",
+      "source_sha256": "d5c2a2ec8dbb93a44490388187f260f832f19e61a7e107bccc77e75a7b814a05"
+    },
+    {
+      "bytes": 511,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/tube_face.surf",
+      "sha256": "ccc9bf17499c731878efbf7afd7d5880759ba5dd51caaecdb064a606372ba0bf",
+      "source_path": "cases/microtests/emit-surf/tube_face.surf",
+      "source_sha256": "ccc9bf17499c731878efbf7afd7d5880759ba5dd51caaecdb064a606372ba0bf"
+    },
+    {
+      "bytes": 9096,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/emit-surf/tube_face3d.surf",
+      "sha256": "332ba34c7549ed75d3a14abbe2501f82805b113f61a7d8a503f3e24c5cb4ee0d",
+      "source_path": "cases/microtests/emit-surf/tube_face3d.surf",
+      "source_sha256": "332ba34c7549ed75d3a14abbe2501f82805b113f61a7d8a503f3e24c5cb4ee0d"
+    },
+    {
+      "bytes": 693,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/stage1-parse/in.he_parse",
+      "sha256": "3da46b0556ebd3b8bb6dcb31d2d27e653c20feeabf765a1868a68ad9462ec614",
+      "source_path": "cases/microtests/stage1-parse/in.he_parse",
+      "source_sha256": "3da46b0556ebd3b8bb6dcb31d2d27e653c20feeabf765a1868a68ad9462ec614"
+    },
+    {
+      "bytes": 3726,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/stage2-collide/analyze.py",
+      "sha256": "3363c685524beea7d912818321f5249ae0ae06c8becad7333a4f9c932b345699",
+      "source_path": "cases/microtests/stage2-collide/analyze.py",
+      "source_sha256": "3363c685524beea7d912818321f5249ae0ae06c8becad7333a4f9c932b345699"
+    },
+    {
+      "bytes": 923,
+      "edits": [
+        {
+          "new_sha256": "3b73a77278751ed941779308ed99d64f96213c063cae4aa9c87ce6a4a049a3ce",
+          "old_sha256": "074bee2eb95a01a5c99931c6dbf1190016df342d6507fd168f99de28dd9f651f",
+          "why": "names a validation file that lives only in the private development repository (Astra rc2 review F3)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "cases/microtests/stage2-collide/in.he_collide",
+      "sha256": "7fcb9f601fd4376934ee4fb425e7071877bff28390444356eee1229c9bb5ca75",
+      "source_path": "cases/microtests/stage2-collide/in.he_collide",
+      "source_sha256": "6edda5952c8d02cebeb0ccfc999ff4575910e1de1fa4e27008ada938d1c440f6"
+    },
+    {
+      "bytes": 6726,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "docs/3d-case-format.md",
+      "sha256": "137a0597c3ba2899fb4308984724a8ffc8c81087f3ea861e7bd3e250cd4ce3ff",
+      "source_path": "public/docs/3d-case-format.md",
+      "source_sha256": "137a0597c3ba2899fb4308984724a8ffc8c81087f3ea861e7bd3e250cd4ce3ff"
+    },
+    {
+      "bytes": 7361,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "docs/sparta-convergence.md",
+      "sha256": "ae421958be8c23575d8c024f7dfcc326ff61525f0eb93cabd1f32bc3404a23a9",
+      "source_path": "public/docs/sparta-convergence.md",
+      "source_sha256": "ae421958be8c23575d8c024f7dfcc326ff61525f0eb93cabd1f32bc3404a23a9"
+    },
+    {
+      "bytes": 19109,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "docs/walkthrough.md",
+      "sha256": "5061987aa1a7139d2f87b84ae9b0da329b7afc5e75bce9758f8245a8cd9b34a6",
+      "source_path": "public/docs/walkthrough.md",
+      "source_sha256": "5061987aa1a7139d2f87b84ae9b0da329b7afc5e75bce9758f8245a8cd9b34a6"
+    },
+    {
+      "bytes": 379,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "profiles/local.example.json",
+      "sha256": "3cebd2926badbbab8ee4709dfb191e7e48e55949f6848191daf90386ff0ed69c",
+      "source_path": "profiles/local.example.json",
+      "source_sha256": "3cebd2926badbbab8ee4709dfb191e7e48e55949f6848191daf90386ff0ed69c"
+    },
+    {
+      "bytes": 640,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "profiles/slurm.engaging.example.json",
+      "sha256": "fe3c21cd32686339004dbd62d93986dbbff6abd745bf373233330c3a739ac922",
+      "source_path": "profiles/slurm.engaging.example.json",
+      "source_sha256": "fe3c21cd32686339004dbd62d93986dbbff6abd745bf373233330c3a739ac922"
+    },
+    {
+      "bytes": 273,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "requirements-3d.txt",
+      "sha256": "ac305a964513e28414c47a7898c17a26203fd66e954b9617ef26ef5fc19b3202",
+      "source_path": "requirements-3d.txt",
+      "source_sha256": "ac305a964513e28414c47a7898c17a26203fd66e954b9617ef26ef5fc19b3202"
+    },
+    {
+      "bytes": 3924,
+      "edits": [
+        {
+          "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "old_sha256": "8a3c23f077abb22d8d3218dc7a85c6efbd8508b1f09545790548142c0f298325",
+          "why": "names a validation file that lives only in the private development repository (Astra rc2 review F3)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/build_tube.py",
+      "sha256": "7619451a11ead7c13944e143be139b70f032171cb11eb58b0b32c8fff9347f0f",
+      "source_path": "tests/fixtures/3d/build_tube.py",
+      "source_sha256": "fac5dcb36b50770836586a9c24defff55ea857fecc8547a56a15ce314952fa29"
+    },
+    {
+      "bytes": 220,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/DS3FF.DAT",
+      "sha256": "ac520fbf980f8a5ecf15ef47a052a7709d25b629a77930dc5634992f51e1d477",
+      "source_path": "tests/fixtures/3d/tube/DS3FF.DAT",
+      "source_sha256": "ac520fbf980f8a5ecf15ef47a052a7709d25b629a77930dc5634992f51e1d477"
+    },
+    {
+      "bytes": 431,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/canonical-tracer.toml",
+      "sha256": "6679be2d4c842bc2bddf01b768c620b50f176b22661fc9b9fc3c3b05154061d9",
+      "source_path": "tests/fixtures/3d/tube/canonical-tracer.toml",
+      "source_sha256": "6679be2d4c842bc2bddf01b768c620b50f176b22661fc9b9fc3c3b05154061d9"
+    },
+    {
+      "bytes": 365,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/cell.surfs",
+      "sha256": "71c2e26c4adf5fe61768b409cfc90620901fe92f56094b3617221646d19f6362",
+      "source_path": "tests/fixtures/3d/tube/cell.surfs",
+      "source_sha256": "71c2e26c4adf5fe61768b409cfc90620901fe92f56094b3617221646d19f6362"
+    },
+    {
+      "bytes": 212,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/physical-walls.surf",
+      "sha256": "0181ef8351af4924eb9b4fd967989a16c61b5b4975c088a6e9d3632851bfe247",
+      "source_path": "tests/fixtures/3d/tube/physical-walls.surf",
+      "source_sha256": "0181ef8351af4924eb9b4fd967989a16c61b5b4975c088a6e9d3632851bfe247"
+    },
+    {
+      "bytes": 1421,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/triangle-roles.json",
+      "sha256": "c7b9b372ea43a751e3661ea5911bfbaa6a11ec05499773d462a064aacbf47110",
+      "source_path": "tests/fixtures/3d/tube/triangle-roles.json",
+      "source_sha256": "c7b9b372ea43a751e3661ea5911bfbaa6a11ec05499773d462a064aacbf47110"
+    },
+    {
+      "bytes": 256,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/fixtures/3d/tube/triangle-roles.tsv",
+      "sha256": "8cff0377139ef64e66835907c73d27f708e611f8eabac3723ba3f2f64e23c388",
+      "source_path": "tests/fixtures/3d/tube/triangle-roles.tsv",
+      "source_sha256": "8cff0377139ef64e66835907c73d27f708e611f8eabac3723ba3f2f64e23c388"
+    },
+    {
+      "bytes": 9774,
+      "edits": [
+        {
+          "new_sha256": "99ddc3ecde808ab15e24dd2b063979ee4c193538effa09b964454486ab344e9a",
+          "old_sha256": "1c8271b100c19065f8b39a875c81eb1565592767bf82d893a13e138afb41164a",
+          "why": "the B5 slit example is not in this release (only the circle is public, Arian 2026-09-28)"
+        },
+        {
+          "new_sha256": "80fa7b1acb0ad69b3dfd6187afacf24bc870fbba898ee00a2694ac53e4dd071b",
+          "old_sha256": "07f056a01c5506eeb27e571f828373d7dfa377fc746e9d2ba70977700b31d397",
+          "why": "the B5 slit example is not in this release (only the circle is public, Arian 2026-09-28)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/test_3d_case.py",
+      "sha256": "9c345f23a8a9e756effab82ce7ab209c4860994dd3a49fe0e20ce7e0c5b9cbda",
+      "source_path": "tests/test_3d_case.py",
+      "source_sha256": "da7cdb03f460788933f4344b5bfc35822ddfe525aefa44d9ce34d479723a7a7d"
+    },
+    {
+      "bytes": 1675,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/test_3d_fixture.py",
+      "sha256": "a7239b0dd0b97f0d277b285d3b9e62d653b1300c423ff1f715926acb878faaa1",
+      "source_path": "tests/test_3d_fixture.py",
+      "source_sha256": "a7239b0dd0b97f0d277b285d3b9e62d653b1300c423ff1f715926acb878faaa1"
+    },
+    {
+      "bytes": 3836,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/test_3d_observable_report.py",
+      "sha256": "66cd3633b33a37927c930a26ce4a7e6478a506c309ae4e2db2473f2ae473573f",
+      "source_path": "tests/test_3d_observable_report.py",
+      "source_sha256": "66cd3633b33a37927c930a26ce4a7e6478a506c309ae4e2db2473f2ae473573f"
+    },
+    {
+      "bytes": 3354,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tests/test_3d_repository.py",
+      "sha256": "512a0cf986d8d700052abd3909171e66b194914358c24e752a5a5e67a2197f3a",
+      "source_path": "tests/test_3d_repository.py",
+      "source_sha256": "512a0cf986d8d700052abd3909171e66b194914358c24e752a5a5e67a2197f3a"
+    },
+    {
+      "bytes": 20453,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/benchmark_3d.py",
+      "sha256": "3861d4196d8dd36c5da8f74847c729db8ebe5721d5e364dcf8630a4f8d4220da",
+      "source_path": "tools/benchmark_3d.py",
+      "source_sha256": "3861d4196d8dd36c5da8f74847c729db8ebe5721d5e364dcf8630a4f8d4220da"
+    },
+    {
+      "bytes": 23882,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc.py",
+      "sha256": "4c873f2b78228610ea92208b839487ce18ec60c8671e507553ed11afb5a6303c",
+      "source_path": "tools/dsmc.py",
+      "source_sha256": "4c873f2b78228610ea92208b839487ce18ec60c8671e507553ed11afb5a6303c"
+    },
+    {
+      "bytes": 7084,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_acceptance.py",
+      "sha256": "fece23fc866ae9850d89bd55918e8ac29841f6c4dec9ae08c8c2d8f724b2faf4",
+      "source_path": "tools/dsmc_acceptance.py",
+      "source_sha256": "fece23fc866ae9850d89bd55918e8ac29841f6c4dec9ae08c8c2d8f724b2faf4"
+    },
+    {
+      "bytes": 12694,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_archive.py",
+      "sha256": "035c582416d3b09b0feda4e4bc387dd114efa87a7097e7ddeffd73517b637795",
+      "source_path": "tools/dsmc_archive.py",
+      "source_sha256": "035c582416d3b09b0feda4e4bc387dd114efa87a7097e7ddeffd73517b637795"
+    },
+    {
+      "bytes": 56999,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_cad_field.py",
+      "sha256": "37f19b6fca24715d07bce0e03a02dc0323ea674fda453990fc11636e40ab6782",
+      "source_path": "tools/dsmc_cad_field.py",
+      "source_sha256": "37f19b6fca24715d07bce0e03a02dc0323ea674fda453990fc11636e40ab6782"
+    },
+    {
+      "bytes": 19005,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_cad_flow.py",
+      "sha256": "97e593409e64f57528231d474337b400ce449f2bfeec89ed9d9c0ac93f10a2d2",
+      "source_path": "tools/dsmc_cad_flow.py",
+      "source_sha256": "97e593409e64f57528231d474337b400ce449f2bfeec89ed9d9c0ac93f10a2d2"
+    },
+    {
+      "bytes": 11815,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_cad_probe.py",
+      "sha256": "be744ad9bae2b7a33edb875191ef91ec8ee68cdde66363413785baf36f329511",
+      "source_path": "tools/dsmc_cad_probe.py",
+      "source_sha256": "be744ad9bae2b7a33edb875191ef91ec8ee68cdde66363413785baf36f329511"
+    },
+    {
+      "bytes": 52909,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_cad_workflow.py",
+      "sha256": "4230182f7eca3c91788358839f8b024efba303d2507861580c5d89a078c1a1b6",
+      "source_path": "tools/dsmc_cad_workflow.py",
+      "source_sha256": "4230182f7eca3c91788358839f8b024efba303d2507861580c5d89a078c1a1b6"
+    },
+    {
+      "bytes": 25058,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_case.py",
+      "sha256": "397291014bb7e3973cd6d9d960ead8995d696635b962bc01c4268514da464026",
+      "source_path": "tools/dsmc_case.py",
+      "source_sha256": "397291014bb7e3973cd6d9d960ead8995d696635b962bc01c4268514da464026"
+    },
+    {
+      "bytes": 31697,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_checkpoint.py",
+      "sha256": "e23c12435bd2a337836f251888002333234495ef4643950588a89d78ba3eaa04",
+      "source_path": "tools/dsmc_checkpoint.py",
+      "source_sha256": "e23c12435bd2a337836f251888002333234495ef4643950588a89d78ba3eaa04"
+    },
+    {
+      "bytes": 8808,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_export.py",
+      "sha256": "554912d361a95c7f5db4348ae1a1b7c178741278f4cf500f5fea5ff1e521a0ca",
+      "source_path": "tools/dsmc_export.py",
+      "source_sha256": "554912d361a95c7f5db4348ae1a1b7c178741278f4cf500f5fea5ff1e521a0ca"
+    },
+    {
+      "bytes": 11080,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_field.py",
+      "sha256": "0db30afa39abd4740a19f042931aaff33293e7c3cdaf04173b2f3f540854613b",
+      "source_path": "tools/dsmc_field.py",
+      "source_sha256": "0db30afa39abd4740a19f042931aaff33293e7c3cdaf04173b2f3f540854613b"
+    },
+    {
+      "bytes": 6784,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_frames.py",
+      "sha256": "2a08e9b5a1a6d359413766a78caf6c3b9b004b235938c5ced9a74a445e381d4b",
+      "source_path": "tools/dsmc_frames.py",
+      "source_sha256": "2a08e9b5a1a6d359413766a78caf6c3b9b004b235938c5ced9a74a445e381d4b"
+    },
+    {
+      "bytes": 8810,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_geometry.py",
+      "sha256": "1f1da97f8576b0f83d77eaef17f4e2a8c8daab3f0bb3986583a643d74b0fe324",
+      "source_path": "tools/dsmc_geometry.py",
+      "source_sha256": "1f1da97f8576b0f83d77eaef17f4e2a8c8daab3f0bb3986583a643d74b0fe324"
+    },
+    {
+      "bytes": 26067,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_geometry_cad.py",
+      "sha256": "0bc50ef86858b0128d5fe4b4034c41c0d927a1f1349f3e85e2cd2b54067bb26c",
+      "source_path": "tools/dsmc_geometry_cad.py",
+      "source_sha256": "0bc50ef86858b0128d5fe4b4034c41c0d927a1f1349f3e85e2cd2b54067bb26c"
+    },
+    {
+      "bytes": 3571,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_handoff.py",
+      "sha256": "7bd814421b627350b659eb383fa803968bc6e1c628219e6dfa012fc1b349e312",
+      "source_path": "tools/dsmc_handoff.py",
+      "source_sha256": "7bd814421b627350b659eb383fa803968bc6e1c628219e6dfa012fc1b349e312"
+    },
+    {
+      "bytes": 4092,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_mesh_crossings.py",
+      "sha256": "fee9c1eda06a6ffffedb076eaa2ccb9789b062036c0991c61e67c0f539930149",
+      "source_path": "tools/dsmc_mesh_crossings.py",
+      "source_sha256": "fee9c1eda06a6ffffedb076eaa2ccb9789b062036c0991c61e67c0f539930149"
+    },
+    {
+      "bytes": 31267,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_molecule.py",
+      "sha256": "6a5dd475e7931b8e83fdbc7e91e1e711e223c50eec319cd3443b2e6f959187b3",
+      "source_path": "tools/dsmc_molecule.py",
+      "source_sha256": "6a5dd475e7931b8e83fdbc7e91e1e711e223c50eec319cd3443b2e6f959187b3"
+    },
+    {
+      "bytes": 18889,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_pipeline.py",
+      "sha256": "83b45d5a759de98e0a991a560f3d19740feece06ad16b3193bb4feacd0d8668c",
+      "source_path": "tools/dsmc_pipeline.py",
+      "source_sha256": "83b45d5a759de98e0a991a560f3d19740feece06ad16b3193bb4feacd0d8668c"
+    },
+    {
+      "bytes": 15988,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_recovery_evidence.py",
+      "sha256": "635ad166279d64d309d36a0f331b3b1048af131a861b2649e24c7bae5ff61cea",
+      "source_path": "tools/dsmc_recovery_evidence.py",
+      "source_sha256": "635ad166279d64d309d36a0f331b3b1048af131a861b2649e24c7bae5ff61cea"
+    },
+    {
+      "bytes": 9415,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_report.py",
+      "sha256": "6eee3f541c6e8785a960a83e04a4390db3611f00b7fee9e4f193f161cbd5163c",
+      "source_path": "tools/dsmc_report.py",
+      "source_sha256": "6eee3f541c6e8785a960a83e04a4390db3611f00b7fee9e4f193f161cbd5163c"
+    },
+    {
+      "bytes": 6346,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_repository.py",
+      "sha256": "83669b4fef3cfe35658a0a360fb4ebe96368d8a3f9c1717c140d49f37555b560",
+      "source_path": "tools/dsmc_repository.py",
+      "source_sha256": "83669b4fef3cfe35658a0a360fb4ebe96368d8a3f9c1717c140d49f37555b560"
+    },
+    {
+      "bytes": 21537,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_resume.py",
+      "sha256": "a2e6edfbb72bd67e471be119594b78bf7713b566c772b1644a05a37e2cf8a782",
+      "source_path": "tools/dsmc_resume.py",
+      "source_sha256": "a2e6edfbb72bd67e471be119594b78bf7713b566c772b1644a05a37e2cf8a782"
+    },
+    {
+      "bytes": 12585,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_resume_parent.py",
+      "sha256": "aedcc8ae062502ae0d773ff7a115cbaf4b5135d5a5cd76eb2e0e373ec4cc9d0a",
+      "source_path": "tools/dsmc_resume_parent.py",
+      "source_sha256": "aedcc8ae062502ae0d773ff7a115cbaf4b5135d5a5cd76eb2e0e373ec4cc9d0a"
+    },
+    {
+      "bytes": 12821,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_resume_run.py",
+      "sha256": "65854b2ba96ce0b4b6615725e1d3fbcdf2def2ef3205ea7efe9137f01e5a53db",
+      "source_path": "tools/dsmc_resume_run.py",
+      "source_sha256": "65854b2ba96ce0b4b6615725e1d3fbcdf2def2ef3205ea7efe9137f01e5a53db"
+    },
+    {
+      "bytes": 13799,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_run.py",
+      "sha256": "5166d2cd29782393fd56c4c47e4dc1dd248e6a4cd64a963582ec4f8183de1a37",
+      "source_path": "tools/dsmc_run.py",
+      "source_sha256": "5166d2cd29782393fd56c4c47e4dc1dd248e6a4cd64a963582ec4f8183de1a37"
+    },
+    {
+      "bytes": 42563,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_slurm.py",
+      "sha256": "1829e4261c6b043f309ab7a6aec4ebf670acf671f8dc754230a10841d9bdc21f",
+      "source_path": "tools/dsmc_slurm.py",
+      "source_sha256": "1829e4261c6b043f309ab7a6aec4ebf670acf671f8dc754230a10841d9bdc21f"
+    },
+    {
+      "bytes": 6994,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_solver.py",
+      "sha256": "9aff8c843f75d43652ce242c9e3adb6353af08128e1a7a6cf885b35f12655647",
+      "source_path": "tools/dsmc_solver.py",
+      "source_sha256": "9aff8c843f75d43652ce242c9e3adb6353af08128e1a7a6cf885b35f12655647"
+    },
+    {
+      "bytes": 7819,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/dsmc_splitmap.py",
+      "sha256": "a91c111ff523b2b56b884a3a90ab00c6585899a46033400104bb6e99a9d1ec75",
+      "source_path": "tools/dsmc_splitmap.py",
+      "source_sha256": "a91c111ff523b2b56b884a3a90ab00c6585899a46033400104bb6e99a9d1ec75"
+    },
+    {
+      "bytes": 696,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/he-collision-check.sbatch",
+      "sha256": "f1c0166f96ee7a6bd824505d9b5f1bc5e9f32ee617d764c19b33fe77eb6cb194",
+      "source_path": "tools/engaging/he-collision-check.sbatch",
+      "source_sha256": "f1c0166f96ee7a6bd824505d9b5f1bc5e9f32ee617d764c19b33fe77eb6cb194"
+    },
+    {
+      "bytes": 1286,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/he-collision-runs.sh",
+      "sha256": "d682eec3959c05178284326f7206d8db8a3a1bfe02bce663f59b6ca61fc786ab",
+      "source_path": "tools/engaging/he-collision-runs.sh",
+      "source_sha256": "d682eec3959c05178284326f7206d8db8a3a1bfe02bce663f59b6ca61fc786ab"
+    },
+    {
+      "bytes": 14462,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/prepare_site.py",
+      "sha256": "be28b6a43c0790607c93cd1990c8fdfdf8e6ecfe8de9bf2b58c199857d8634ff",
+      "source_path": "tools/engaging/prepare_site.py",
+      "source_sha256": "be28b6a43c0790607c93cd1990c8fdfdf8e6ecfe8de9bf2b58c199857d8634ff"
+    },
+    {
+      "bytes": 8985,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/setup-env.sh",
+      "sha256": "bf65feeab5bdd7178486649995253389ccbc13fd09d63ca5557d5e758e570093",
+      "source_path": "tools/engaging/setup-env.sh",
+      "source_sha256": "bf65feeab5bdd7178486649995253389ccbc13fd09d63ca5557d5e758e570093"
+    },
+    {
+      "bytes": 244,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/smoke-setup.sh",
+      "sha256": "d4f3a82a4fef7d760f3c4a437a77d1781f12c2e7d256143ccaeada0c1814b072",
+      "source_path": "tools/engaging/smoke-setup.sh",
+      "source_sha256": "d4f3a82a4fef7d760f3c4a437a77d1781f12c2e7d256143ccaeada0c1814b072"
+    },
+    {
+      "bytes": 2387,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/sparta-runtime-smokes.sh",
+      "sha256": "53e0ba9197de12b088b16ffa771b05ca82fbfce885e866df05a32ee2ea657ce3",
+      "source_path": "tools/engaging/sparta-runtime-smokes.sh",
+      "source_sha256": "53e0ba9197de12b088b16ffa771b05ca82fbfce885e866df05a32ee2ea657ce3"
+    },
+    {
+      "bytes": 4377,
+      "edits": [
+        {
+          "new_sha256": "ad5275bcdd24af03fcb59a0aede05f963a81bcf3f906fa217108ed3e4af2f5ae",
+          "old_sha256": "07c23f5d6d1b6c0e05c65be3ff15e41a8d8fc271cfa104ca2d1488754c042ce6",
+          "why": "names a validation file that lives only in the private development repository (Astra rc2 review F3)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/sparta-smoke.sbatch",
+      "sha256": "3b00641139ec3d543c1f2f8a4fd341928318d10728c1a0a7617e8c050071d915",
+      "source_path": "tools/engaging/sparta-smoke.sbatch",
+      "source_sha256": "86d97cc4e3ecd5303dbdc61a4f1c08432a5e97283a8f8440d0227103df700c31"
+    },
+    {
+      "bytes": 17310,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "tools/engaging/test_engaging_setup.py",
+      "sha256": "5862f20f3ddf3b9706ae42a934e6fb2b212cce70917a0eafe0daa65dbb4d3574",
+      "source_path": "public/tools/engaging/test_engaging_setup.py",
+      "source_sha256": "5862f20f3ddf3b9706ae42a934e6fb2b212cce70917a0eafe0daa65dbb4d3574"
+    },
+    {
+      "bytes": 5330,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/engaging/write_profiles.py",
+      "sha256": "ae555f01a3f86a5b19abe78410153d4af260fc2bdbcee02dbe4623bb7fc7c0a2",
+      "source_path": "tools/engaging/write_profiles.py",
+      "source_sha256": "ae555f01a3f86a5b19abe78410153d4af260fc2bdbcee02dbe4623bb7fc7c0a2"
+    },
+    {
+      "bytes": 9782,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/equilibrium.py",
+      "sha256": "966086fe5397d84c3e1f16b542b4613271f8d82af882ccb669de66c571cc1bc4",
+      "source_path": "tools/equilibrium.py",
+      "source_sha256": "966086fe5397d84c3e1f16b542b4613271f8d82af882ccb669de66c571cc1bc4"
+    },
+    {
+      "bytes": 55359,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/field2tracer3d.py",
+      "sha256": "e720a6f2fed1c8c87598a9246fdaa423e884a40be4718097b89a9c7d0d6d995a",
+      "source_path": "tools/field2tracer3d.py",
+      "source_sha256": "e720a6f2fed1c8c87598a9246fdaa423e884a40be4718097b89a9c7d0d6d995a"
+    },
+    {
+      "bytes": 7606,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/plot_tracer_paths3d.py",
+      "sha256": "a39de4720961edee22f45af885cdc590422d56518a52c07262226168a1bc896c",
+      "source_path": "tools/plot_tracer_paths3d.py",
+      "source_sha256": "a39de4720961edee22f45af885cdc590422d56518a52c07262226168a1bc896c"
+    },
+    {
+      "bytes": 7411,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/preclone_particles.py",
+      "sha256": "16d4ceac36fefabf7947f1b4373022b437bd554c6dc7c8659eb3e1d0efe1b48f",
+      "source_path": "tools/preclone_particles.py",
+      "source_sha256": "16d4ceac36fefabf7947f1b4373022b437bd554c6dc7c8659eb3e1d0efe1b48f"
+    },
+    {
+      "bytes": 6062,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/revolve_surf.py",
+      "sha256": "a03ad3d7da76c5de73d4cb74d598ba9641ea6d82900c91cb74f70510c2b05673",
+      "source_path": "tools/revolve_surf.py",
+      "source_sha256": "a03ad3d7da76c5de73d4cb74d598ba9641ea6d82900c91cb74f70510c2b05673"
+    },
+    {
+      "bytes": 3713,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/sparta_splitmap/ids_from_frame.py",
+      "sha256": "b0f32113ca4ca2c1b923a0ebbf833a612286c757569361400f25eb9fba3fc10e",
+      "source_path": "tools/sparta_splitmap/ids_from_frame.py",
+      "source_sha256": "b0f32113ca4ca2c1b923a0ebbf833a612286c757569361400f25eb9fba3fc10e"
+    },
+    {
+      "bytes": 3721,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/sparta_splitmap/make_queries.py",
+      "sha256": "6f77916d76085374a78ddcf8de84c003a378c732a2f3bba3332ef3b19230551c",
+      "source_path": "tools/sparta_splitmap/make_queries.py",
+      "source_sha256": "6f77916d76085374a78ddcf8de84c003a378c732a2f3bba3332ef3b19230551c"
+    },
+    {
+      "bytes": 9305,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/sparta_splitmap/validate_map.py",
+      "sha256": "3201396239d207266e488c155e3ce855b1f9304cc1f052f779b96ac2b8a6c14b",
+      "source_path": "tools/sparta_splitmap/validate_map.py",
+      "source_sha256": "3201396239d207266e488c155e3ce855b1f9304cc1f052f779b96ac2b8a6c14b"
+    },
+    {
+      "bytes": 4615,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/test_plot_tracer_paths3d.py",
+      "sha256": "bf84fe4bc66d0308ee2ce495fc1665ddc07acca2db414d4617347716fc4dfa6f",
+      "source_path": "tools/test_plot_tracer_paths3d.py",
+      "source_sha256": "bf84fe4bc66d0308ee2ce495fc1665ddc07acca2db414d4617347716fc4dfa6f"
+    },
+    {
+      "bytes": 23652,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/tracer_analyze.py",
+      "sha256": "0e47787e516b92649d5bc24505883cae6ec753f114bfaea2ae9b81b7de1b050d",
+      "source_path": "tools/tracer_analyze.py",
+      "source_sha256": "0e47787e516b92649d5bc24505883cae6ec753f114bfaea2ae9b81b7de1b050d"
+    },
+    {
+      "bytes": 31683,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/tracer_analyze3d.py",
+      "sha256": "28a9044d9f82d59c4b06bd3c73e0cc2683ee8f84c032ed76646e771475594724",
+      "source_path": "tools/tracer_analyze3d.py",
+      "source_sha256": "28a9044d9f82d59c4b06bd3c73e0cc2683ee8f84c032ed76646e771475594724"
+    },
+    {
+      "bytes": 5999,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/verify_3d_export.py",
+      "sha256": "d4fb0c187fb05145176a9029af1de98fedfdabb4cf87f91c72141e5a5805edf0",
+      "source_path": "tools/verify_3d_export.py",
+      "source_sha256": "d4fb0c187fb05145176a9029af1de98fedfdabb4cf87f91c72141e5a5805edf0"
+    },
+    {
+      "bytes": 7413,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/verify_3d_fixture.py",
+      "sha256": "25202c2f490d72bbc441d338a45cf5b1feed8780d7322c656811d61e4db7467d",
+      "source_path": "tools/verify_3d_fixture.py",
+      "source_sha256": "25202c2f490d72bbc441d338a45cf5b1feed8780d7322c656811d61e4db7467d"
+    },
+    {
+      "bytes": 20172,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/verify_3d_resume.py",
+      "sha256": "b434333779d61e220d82448a87154b916d13f5ff1bd70aeaba834f942696b048",
+      "source_path": "tools/verify_3d_resume.py",
+      "source_sha256": "b434333779d61e220d82448a87154b916d13f5ff1bd70aeaba834f942696b048"
+    },
+    {
+      "bytes": 19268,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/verify_3d_workflow.py",
+      "sha256": "e1e0074ad6a4cdc5decdeaae0e170da661637aa806594bde890f5e104424725b",
+      "source_path": "tools/verify_3d_workflow.py",
+      "source_sha256": "e1e0074ad6a4cdc5decdeaae0e170da661637aa806594bde890f5e104424725b"
+    },
+    {
+      "bytes": 6545,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/wsl/build_sparta_cpu.sh",
+      "sha256": "087137120c0bfe883b3d2822313f7060c2a803d5ef81e7e5e6877078d39c8254",
+      "source_path": "tools/wsl/build_sparta_cpu.sh",
+      "source_sha256": "087137120c0bfe883b3d2822313f7060c2a803d5ef81e7e5e6877078d39c8254"
+    },
+    {
+      "bytes": 7230,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tools/wsl/ctest_gate.py",
+      "sha256": "6f5f379c61a18a7387a3756bcd666009d21204225218c3456b256df1623794e8",
+      "source_path": "tools/wsl/ctest_gate.py",
+      "source_sha256": "6f5f379c61a18a7387a3756bcd666009d21204225218c3456b256df1623794e8"
+    },
+    {
+      "bytes": 3145,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "tools/wsl/fixtures/ctest-synthetic-bigbig.log",
+      "sha256": "9495b18844658068b61b91e061dcc430207636e40a3fd4e9d9792bb3c614fd6f",
+      "source_path": "public/tools/wsl/fixtures/ctest-synthetic-bigbig.log",
+      "source_sha256": "9495b18844658068b61b91e061dcc430207636e40a3fd4e9d9792bb3c614fd6f"
+    },
+    {
+      "bytes": 6500,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "tools/wsl/test_ctest_gate.py",
+      "sha256": "682347956501e9d2ebd5da679b36fc8f1cab50b0ca32cdfd7772cbc466741e3e",
+      "source_path": "public/tools/wsl/test_ctest_gate.py",
+      "source_sha256": "682347956501e9d2ebd5da679b36fc8f1cab50b0ca32cdfd7772cbc466741e3e"
+    },
+    {
+      "bytes": 2320,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Events3D.jl",
+      "sha256": "507e4b54bc73ce931405976183c6adf83bb2f0f3a4f57fa0ac39f671d10da52d",
+      "source_path": "tracer/Events3D.jl",
+      "source_sha256": "507e4b54bc73ce931405976183c6adf83bb2f0f3a4f57fa0ac39f671d10da52d"
+    },
+    {
+      "bytes": 18785,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Field3D.jl",
+      "sha256": "1afab5ea26b61e67546b7a2e56c4d6fc91c293e212f95c1b7ecb710452328ff8",
+      "source_path": "tracer/Field3D.jl",
+      "source_sha256": "1afab5ea26b61e67546b7a2e56c4d6fc91c293e212f95c1b7ecb710452328ff8"
+    },
+    {
+      "bytes": 18730,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Geometry3D.jl",
+      "sha256": "824bf660b2b8c8e0413b4fed9940930257e44998d8c0b427b128ae85eb6474aa",
+      "source_path": "tracer/Geometry3D.jl",
+      "source_sha256": "824bf660b2b8c8e0413b4fed9940930257e44998d8c0b427b128ae85eb6474aa"
+    },
+    {
+      "bytes": 18652,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Manifest.toml",
+      "sha256": "bc5d4f9fd2913bcf701a7c70f0664309010859a4a6c0eeab53a1ab797ad9bbaf",
+      "source_path": "tracer/Manifest.toml",
+      "source_sha256": "bc5d4f9fd2913bcf701a7c70f0664309010859a4a6c0eeab53a1ab797ad9bbaf"
+    },
+    {
+      "bytes": 49515,
+      "edits": [
+        {
+          "new_sha256": "1285f969843757fd56f0f849772881fbab4ea07d659114b921d59e39ff3890c1",
+          "old_sha256": "c205d887d3049c3c978ede5bf653b1850c6c3db50cd07b866fb5c78f18496a93",
+          "why": "the public repository is MIT throughout (Arian, 2026-09-28)"
+        },
+        {
+          "new_sha256": "60214df51bed6112979652ed63580fb50ebb625a10ca4ff5aa2cef0ab8162984",
+          "old_sha256": "2add6f2928430a70e3e3c82d3a6c53ae168725ed1bb9a767890fdba3e9834375",
+          "why": "comment names an unreleased docs/plans file; the vendored file is protected in source"
+        },
+        {
+          "new_sha256": "1dae0ab4b516411150192802e94316654e9fc26896dbd51a3d40be2d099d7080",
+          "old_sha256": "697783bc12cd17feed5635f34e5d53c1b2efd3b9e4c11dce07cf161bba73f653",
+          "why": "comment names an unreleased docs/plans file; the vendored file is protected in source"
+        },
+        {
+          "new_sha256": "e97bb0068c2e7ea8f4129f091e737637e70045bda7c106203d75f110bba5788c",
+          "old_sha256": "98b1674a97eedc2c48f9c958cbff9fdfa170119d01f72cf622949f90519ffd7f",
+          "why": "comment names an unreleased results/ directory; the vendored file is protected in source"
+        },
+        {
+          "new_sha256": "908d3c5395028c334ec3504dd16583a4dea53cb6462667e1f645d7aa5531309c",
+          "old_sha256": "743d601dad77475fa0c2ba1001d37c6e8fbb9e86506dc9aa3a61b8761fffb8b5",
+          "why": "names a validation file that lives only in the private development repository (Astra rc2 review F3)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/ParticleTracing.jl",
+      "sha256": "dc111c954710b571d4b58b6a3ff0f90db9f8c373c120a71c634e8dcf62403593",
+      "source_path": "tracer/ParticleTracing.jl",
+      "source_sha256": "ab344168cfe5c0d58a12a7dc2aa6059115b3b34bab45e5cf098035dc5009012b"
+    },
+    {
+      "bytes": 161,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/ParticleTracing3D.jl",
+      "sha256": "1ffbd00ac3c1b1f20364a0a1d7446d394ef889ff3fb2e625f0f29dbac0431caa",
+      "source_path": "tracer/ParticleTracing3D.jl",
+      "source_sha256": "1ffbd00ac3c1b1f20364a0a1d7446d394ef889ff3fb2e625f0f29dbac0431caa"
+    },
+    {
+      "bytes": 13214,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/PreparedCase3D.jl",
+      "sha256": "5cb3a39b59b1e263515565ec71ab47784ded80d8410a7ce4c297131bfd682588",
+      "source_path": "tracer/PreparedCase3D.jl",
+      "source_sha256": "5cb3a39b59b1e263515565ec71ab47784ded80d8410a7ce4c297131bfd682588"
+    },
+    {
+      "bytes": 526,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Project.toml",
+      "sha256": "131d85165ececbee8f57ff3ebfb3d2391a42ab6b6ce61b0efa5b9f1317b5cfac",
+      "source_path": "tracer/Project.toml",
+      "source_sha256": "131d85165ececbee8f57ff3ebfb3d2391a42ab6b6ce61b0efa5b9f1317b5cfac"
+    },
+    {
+      "bytes": 9288,
+      "mode": "100644",
+      "origin": "rendition",
+      "path": "tracer/README-3d.md",
+      "sha256": "f89ca048cd466162468d81c2be9cf4d306268c969d7aaeff127f2070e5ef7dd8",
+      "source_path": "public/tracer/README-3d.md",
+      "source_sha256": "f89ca048cd466162468d81c2be9cf4d306268c969d7aaeff127f2070e5ef7dd8"
+    },
+    {
+      "bytes": 12139,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Runtime3D.jl",
+      "sha256": "b16bb826efdcb18c2ff5bbf5c6e0edcd537826d23883fbfa5ea14952b6799811",
+      "source_path": "tracer/Runtime3D.jl",
+      "source_sha256": "b16bb826efdcb18c2ff5bbf5c6e0edcd537826d23883fbfa5ea14952b6799811"
+    },
+    {
+      "bytes": 2771,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Source3D.jl",
+      "sha256": "10b89e3b880625a9c1700253ce6dce18869726706e57abaf1f7022aa0b9e6c04",
+      "source_path": "tracer/Source3D.jl",
+      "source_sha256": "10b89e3b880625a9c1700253ce6dce18869726706e57abaf1f7022aa0b9e6c04"
+    },
+    {
+      "bytes": 11718,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Statistics3D.jl",
+      "sha256": "e110339cff1b4a3b7427e10030ddc688e2ab580686f93e725ca1b7bc9cd975d7",
+      "source_path": "tracer/Statistics3D.jl",
+      "source_sha256": "e110339cff1b4a3b7427e10030ddc688e2ab580686f93e725ca1b7bc9cd975d7"
+    },
+    {
+      "bytes": 14088,
+      "edits": [
+        {
+          "new_sha256": "f07abec3da1b1cd25ab31226632da2b3962451588e1662091714a882199e542c",
+          "old_sha256": "add5277d3ef44d4af331804044d4b521c033c474429ea5cbdb797e951d04d61f",
+          "why": "the public repository is MIT throughout (Arian, 2026-09-28)"
+        },
+        {
+          "new_sha256": "213e7858c43214269886eb4d1017efaf59fb56573cff2a07a9415d4dca866685",
+          "old_sha256": "d095f676d7a0db5b4473a018ce222c3ff3e3d592ff4f154a1e8a1519b26eadaa",
+          "why": "point at the public licensing file"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/Transport3D.jl",
+      "sha256": "bba11edef00c5294bedff03314014fc223c58fa64bb668d8b96a92d6435686f9",
+      "source_path": "tracer/Transport3D.jl",
+      "source_sha256": "675cd99dbd209e7d6953ccb0ddd5e01c009940a7c059ee2e1b019a16c95ea63a"
+    },
+    {
+      "bytes": 2430,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/ValidatedField3D.jl",
+      "sha256": "a6c3137f753f9181eb33d7e4117e24e75a67fcc111162fb918a0421b1e741860",
+      "source_path": "tracer/ValidatedField3D.jl",
+      "source_sha256": "a6c3137f753f9181eb33d7e4117e24e75a67fcc111162fb918a0421b1e741860"
+    },
+    {
+      "bytes": 2161,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/accumulators/CrossingStats.jl",
+      "sha256": "bfcb24c5baaa4d49877b13bf0574668af372942d1f30075a20b3525170648cbe",
+      "source_path": "tracer/accumulators/CrossingStats.jl",
+      "source_sha256": "bfcb24c5baaa4d49877b13bf0574668af372942d1f30075a20b3525170648cbe"
+    },
+    {
+      "bytes": 3301,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/accumulators/crossing3d.jl",
+      "sha256": "0a9987030c27b0d3c0705b8dc2e49dee3c3398a535b3494d05d8513e2d914fbb",
+      "source_path": "tracer/accumulators/crossing3d.jl",
+      "source_sha256": "0a9987030c27b0d3c0705b8dc2e49dee3c3398a535b3494d05d8513e2d914fbb"
+    },
+    {
+      "bytes": 1638,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/experiments/column_reader.jl",
+      "sha256": "862695d0204331779db0bda73ec1aa4d78e6e6126bb64550bc13f37349ffb244",
+      "source_path": "tracer/experiments/column_reader.jl",
+      "source_sha256": "862695d0204331779db0bda73ec1aa4d78e6e6126bb64550bc13f37349ffb244"
+    },
+    {
+      "bytes": 2554,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/experiments/flight_math.jl",
+      "sha256": "98d5b03df5fe749a9b5d48cb5b42e48707bdda8500520a240403a3e2e9da4e08",
+      "source_path": "tracer/experiments/flight_math.jl",
+      "source_sha256": "98d5b03df5fe749a9b5d48cb5b42e48707bdda8500520a240403a3e2e9da4e08"
+    },
+    {
+      "bytes": 2022,
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/experiments/flight_scratch.jl",
+      "sha256": "84cc69024d1d4a1696a0057b246d0420b88e44c62a29efb9dab91a719612737b",
+      "source_path": "tracer/experiments/flight_scratch.jl",
+      "source_sha256": "84cc69024d1d4a1696a0057b246d0420b88e44c62a29efb9dab91a719612737b"
+    },
+    {
+      "bytes": 1315,
+      "edits": [
+        {
+          "new_sha256": "c071be7729a0ec72a990aa13147fd5f72692617d036e1461f114dd181d363534",
+          "old_sha256": "40065b411db01521103f7be30d08ea54b8868bf088a959cde45266b17ebef497",
+          "why": "the public repository is MIT throughout (Arian, 2026-09-28)"
+        },
+        {
+          "new_sha256": "09199a496e9b2b3dcdc0c319baad706ad47358dad66886e6df851f405f0f61e5",
+          "old_sha256": "2af93e26fd34c8005331e1f8b12fc9c5a8cb0206c60806c7af84754001a666bc",
+          "why": "names a validation file that lives only in the private development repository (Astra rc2 review F3)"
+        }
+      ],
+      "mode": "100644",
+      "origin": "commit",
+      "path": "tracer/vendored.jl",
+      "sha256": "0e40687b468f9e02c6c0790693c5df96bfcc5dff7498267f7c2a8f3a0f38d22f",
+      "source_path": "tracer/vendored.jl",
+      "source_sha256": "1033556cbce00a6c71727611f2142b8bf0a75414caa201692c911ecce68372ff"
+    }
+  ],
+  "held": [
+    {
+      "path": "tracer/SplitField3D.jl",
+      "reason": "HOLD_PROVENANCE: port of SPARTA GPL-2 routines; cannot ship in the MIT release. Since a1bd62a tracer/Field3D.jl includes it only when present, so the released 3D tracer loads and traces without it and refuses split fields by name",
+      "todo": "left out of this release; resolve and list it"
+    },
+    {
+      "path": "tools/sparta_splitmap/compare_queries.py",
+      "reason": "HOLD_PROVENANCE: port of SPARTA GPL-2 routines; cannot ship in the MIT release. Since a1bd62a tools/dsmc_splitmap.py loads without it and only the optional split-map comparison is unavailable",
+      "todo": "left out of this release; resolve and list it"
+    }
+  ],
+  "releasable": true,
+  "release_inputs": "committed",
+  "scan": {
+    "allowed_placeholders": [
+      {
+        "match": "YOUR_KERBEROS@orcd-login.mit.edu",
+        "why": "login placeholder in the public docs"
+      },
+      {
+        "match": "test@example.invalid",
+        "why": "synthetic git identity in a test (RFC 2606 reserved domain)"
+      },
+      {
+        "match": "arianjad",
+        "path": "docs/walkthrough.md",
+        "why": "owner of the public repository in its clone URL (Arian, 2026-09-28)"
+      },
+      {
+        "match": "/home/...",
+        "path": "tools/dsmc_pipeline.py",
+        "why": "generic illustration in a code comment, not a real path"
+      },
+      {
+        "match": "C:\\",
+        "path": "tools/dsmc_pipeline.py",
+        "why": "generic illustration in a code comment, not a real path"
+      }
+    ],
+    "patterns": "personal_paths and email of the 2026-09-28 publication audit",
+    "patterns_sha256": "16a5d0f607685cac90872d0188d6a3ee5b19fd63415e60a949e6dbf782e4d4c5",
+    "result": "clean"
+  },
+  "schema_version": "dsmc-public-release-v1",
+  "source_commit": "2c24063c991e2ac92a3198a4041b999843d5e8d5",
+  "source_repository": "DSMC-sims (private)"
+}
